@@ -53,25 +53,66 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 li, a {
     text-decoration: none;
     color: white;
+    padding-left: 20px;
+}
 
-}
-.hero-section{
-    
-    display: flex;
+.nav-section{
     color: white;
-    border: 2px solid red;
+    padding-left: 100px;
 }
-header {
-    border: 2px solid blue;
+
+header nav {
     display: flex;
     flex: 1 0 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 150px;
 }
-#hero-image-right {
-    max-width: 40vw;
+
+ul {
+    display: flex;
+    padding-right: 100px;
 }
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-section{
+    display: flex;
+}
+
+.hero-intro-left {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    gap: 20px;
+    flex: 1 0 50%;
+    padding: 0 0 100px 100px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.hero-intro-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+.hero-img-right img {
+    max-width: 70%;
+    padding: 10px 100px 50px 50px;
+}
+
 .info-section {
     background-color: white;
     display: flex;
@@ -80,11 +121,14 @@ header {
     align-items: center;
     padding: 50px 100px;
 }
+
 h2 {
     font-weight: bold;
     color: #1f2937;
     font-size: 36px;
+    padding: 30px 0;
 }
+
 .boxes {
     display: flex;
     gap: 20px;
@@ -97,27 +141,29 @@ h2 {
 .boxes img {
     max-width: 20vw;
     border-radius: 10px;
-    
 }
+
 .quote-section {
     background-color: #e5e7eb;
     color: #1f2937;
-    padding: 100px 100px;
+    padding: 100px 120px;
     display: flex;
     flex-direction: column;
 }
+
 blockquote {
     font-size: 36px;
     font-style: italic;
     line-height: 1.4;
 }
+
 cite {
     font-weight: bold;
     font-size: 24px;
     text-align: right;
     padding-top: 15px;
-
 }
+
 .signup-section {
     background-color: #3882f6;
     color: white;
@@ -128,11 +174,12 @@ cite {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
 
-}
 .signup-left {
-    padding-right: 40px;
+    padding-right: 50px;
 }
+
 .signup-left p{
     padding-bottom: 10px;
     font-size: 16px;
@@ -143,64 +190,24 @@ h3 {
     font-weight: 600;
     padding: 10px 0;
 }
+
 .signup-container {
     background-color: aliceblue;
 }
+
 button {
     background-color: #3882f6;
     color: white;
-    border: 2px solid white;
-    border-radius: 5px;
+    border: 3px solid white;
+    border-radius: 8px;
     padding: 8px 20px;
     font-size: 16px;
     width: 125px;
 }
+
 footer {
     color: white;
     text-align: center;
     padding: 3%;
     font-size: .9em;
 }
-/* header, footer, .one {
-    color:  #F9FAF8;
-
-} */
-/* nav, ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 15px 100px;
-    align-items: center;
-
-} */
-
-/* h1 {
-    font-size: 48px;
-    font-weight: bold;
-    padding: 100px 0 0px 100px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-
-
-} */
-/* .one-left,p {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    width: 50%;
-    padding: 10px 0 0 100px;
-
-} */
-/* nav p {
-    font-size:  24px;
-    color: #F9FAF8;
-} */
-/* li, a {
-    color:  #F9FAF8;
-    text-decoration: none;
-    list-style-type: none;
-    padding-left: 40px;
-
-} */
